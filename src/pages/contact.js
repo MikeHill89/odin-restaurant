@@ -1,4 +1,7 @@
 export function handleContactClick() {
-    const getMain = document.querySelector("main");
-    getMain.textContent = "contact was clicked";
+    const main = document.querySelector("main");
+    const section = document.createElement("section");
+    main.innerHTML = "";
+    section.innerHTML = "<p>Contact</p>";
+    main.appendChild(section);
 }
