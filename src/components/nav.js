@@ -1,3 +1,7 @@
+import { handleHomeClick } from "../pages/home.js";
+import { handleMenuClick } from "../pages/menu.js";
+import { handleContactClick } from "../pages/contact.js";
+
 function buildNav() {
     const nav = document.createElement("nav");
     const ul = document.createElement("ul");
@@ -9,6 +13,10 @@ function buildNav() {
     liMenu.textContent = "menu";
     liContact.textContent = "contact";
 
+    liHome.addEventListener("click", handleHomeClick);
+    liMenu.addEventListener("click", handleMenuClick);
+    liContact.addEventListener("click", handleContactClick);
+
     ul.appendChild(liHome);
     ul.appendChild(liMenu);
     ul.appendChild(liContact);
@@ -16,4 +24,6 @@ function buildNav() {
     nav.appendChild(ul);
     return nav;
 }
+
 export default buildNav;
+
