@@ -5,7 +5,23 @@
     --odin-gold: #F1C40F;
     --odin-amaranth: #AF1B3F;
 }
+@font-face {
+  font-family: 'Norse';
+  src: url('./assets/fonts/Norse.woff') format('woff'),
+    url('./assets/fonts/Norsebold.woff') format('woff');
+  font-style: normal;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5rem;
+}
+
 html, body{
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -13,7 +29,6 @@ html, body{
 }
 header{
     width: 100%;
-    padding: 1rem;
     background-color: var(--odin-gold);
     display: flex;
     align-items: center;
@@ -22,33 +37,29 @@ header{
 nav {
   display: flex;
   width: 100%;
-  padding: 1rem;
   justify-content: center;
   background-color: var(--odin-blue);
+  font-family: Norse;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 nav ul {
   list-style: none;
   display: flex;
-  padding: 0;
+  padding: 1rem;
   gap: 1rem;
 }
 main{
     width:50%;
-    padding: 1rem;
     display:flex;
     flex-direction: column;
     flex: 1;
     align-items: center;
-    background-color: var(--odin-platinum);
 }
-main h2{
-    text-align: center;
-}
-main p{
-    text-align: justify;
+main h1, main h2, main h3{
+    font-family: Norse;
 }
 section{
-    padding: 0;
     margin: 0;
     border: 0;
 }
@@ -58,7 +69,7 @@ footer{
     display: flex;
     padding: 1rem;
     justify-content: center;
-    background-color: var(--odin-amaranth);
+    background-color: var(--odin-black);
     color:var(--odin-platinum);
 }
 .wrapper{
@@ -77,6 +88,9 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100%;
+    font-size: 3rem;
+    font-family: Norse;
+    font-weight: bolder;
 }
 .pizzamenu{
     display: flex;
@@ -85,12 +99,26 @@ footer{
     justify-content: center;
 }
 .pizzamenu > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     list-style: none;
     padding: 0;
     margin: 0;
     border:0;
 }
-.pizzamenu > ul > li > h3,
-.pizzamenu > ul > li > p {
-    text-align: center;
+.pizzamenu ul > li{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    background-color: white;
+}
+.pizzamenu ul > li > *{
+    padding: 1rem;
+}
+.price{
+    padding: 1rem;
+    background-color: var(--odin-blue);
+    color: white;
+    align-self: end;
 }
