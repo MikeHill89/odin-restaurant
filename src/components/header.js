@@ -1,23 +1,21 @@
-import logo from '../assets/images/shieldlogo.png';
+import shieldLogo from '../assets/images/shieldlogo.png'; // Renamed to avoid conflict
 
 export default function buildHeader() {
     const header = document.createElement("header");
-    const logo = document.createElement("div");
+    const logoContainer = document.createElement("div"); // Renamed to avoid overwriting
 
-    // Create an image element using document.createElement
     const image = document.createElement("img");
-
-    // Set the src attribute of the image
-    image.src = logo;
+    image.src = shieldLogo; // Now correctly referencing the imported image
 
     const companyName = document.createElement("p");
 
-    logo.classList.add("logo");
+    logoContainer.classList.add("logo");
     companyName.textContent = "Odin's Pizza Place";
-    header.appendChild(logo);
-    logo.appendChild(image);
-    logo.appendChild(companyName);
+
+    header.appendChild(logoContainer);
+    logoContainer.appendChild(image);
+    logoContainer.appendChild(companyName);
+
     return header;
 }
-
 
