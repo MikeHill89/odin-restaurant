@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_images_shieldlogo_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/images/shieldlogo.png */ \"./src/assets/images/shieldlogo.png\");\n\n\nfunction buildHeader() {\n    const header = document.createElement(\"header\");\n    const logo = document.createElement(\"div\");\n\n    // Create an image element using document.createElement\n    const image = document.createElement(\"img\");\n\n    // Set the src attribute of the image\n    image.src = _assets_images_shieldlogo_png__WEBPACK_IMPORTED_MODULE_0__;\n\n    const companyName = document.createElement(\"p\");\n\n    logo.classList.add(\"logo\");\n    companyName.textContent = \"Odin's Pizza Parlor\";\n    header.appendChild(logo);\n    logo.appendChild(image);\n    logo.appendChild(companyName);\n    return header;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (buildHeader);\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9oZWFkZXIuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBd0Q7O0FBRXhEO0FBQ0E7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0EsZ0JBQWdCLDBEQUFTOztBQUV6Qjs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQSxpRUFBZSxXQUFXLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9vZGluLXJlc3RhdXJhbnQvLi9zcmMvY29tcG9uZW50cy9oZWFkZXIuanM/MmRiNCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgbG9nb2ltYWdlIGZyb20gJy4uL2Fzc2V0cy9pbWFnZXMvc2hpZWxkbG9nby5wbmcnO1xuXG5mdW5jdGlvbiBidWlsZEhlYWRlcigpIHtcbiAgICBjb25zdCBoZWFkZXIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiaGVhZGVyXCIpO1xuICAgIGNvbnN0IGxvZ28gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiZGl2XCIpO1xuXG4gICAgLy8gQ3JlYXRlIGFuIGltYWdlIGVsZW1lbnQgdXNpbmcgZG9jdW1lbnQuY3JlYXRlRWxlbWVudFxuICAgIGNvbnN0IGltYWdlID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImltZ1wiKTtcblxuICAgIC8vIFNldCB0aGUgc3JjIGF0dHJpYnV0ZSBvZiB0aGUgaW1hZ2VcbiAgICBpbWFnZS5zcmMgPSBsb2dvaW1hZ2U7XG5cbiAgICBjb25zdCBjb21wYW55TmFtZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJwXCIpO1xuXG4gICAgbG9nby5jbGFzc0xpc3QuYWRkKFwibG9nb1wiKTtcbiAgICBjb21wYW55TmFtZS50ZXh0Q29udGVudCA9IFwiT2RpbidzIFBpenphIFBhcmxvclwiO1xuICAgIGhlYWRlci5hcHBlbmRDaGlsZChsb2dvKTtcbiAgICBsb2dvLmFwcGVuZENoaWxkKGltYWdlKTtcbiAgICBsb2dvLmFwcGVuZENoaWxkKGNvbXBhbnlOYW1lKTtcbiAgICByZXR1cm4gaGVhZGVyO1xufVxuXG5leHBvcnQgZGVmYXVsdCBidWlsZEhlYWRlcjtcblxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/header.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_images_shieldlogo_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/images/shieldlogo.png */ \"./src/assets/images/shieldlogo.png\");\n\n\nfunction buildHeader() {\n    const header = document.createElement(\"header\");\n    const logo = document.createElement(\"div\");\n    \n    // Create an image element using document.createElement\n    const image = document.createElement(\"img\");\n\n    // Set the src attribute of the image\n    image.src = _assets_images_shieldlogo_png__WEBPACK_IMPORTED_MODULE_0__;\n\n    const companyName = document.createElement(\"p\");\n\n    logo.classList.add(\"logo\");\n    companyName.textContent = \"Odin's Pizza Place\";\n    header.appendChild(logo);\n    logo.appendChild(image);\n    logo.appendChild(companyName);\n    return header;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (buildHeader);\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9oZWFkZXIuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBd0Q7O0FBRXhEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBLGdCQUFnQiwwREFBUzs7QUFFekI7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUEsaUVBQWUsV0FBVyxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vb2Rpbi1yZXN0YXVyYW50Ly4vc3JjL2NvbXBvbmVudHMvaGVhZGVyLmpzPzJkYjQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGxvZ29pbWFnZSBmcm9tICcuLi9hc3NldHMvaW1hZ2VzL3NoaWVsZGxvZ28ucG5nJztcblxuZnVuY3Rpb24gYnVpbGRIZWFkZXIoKSB7XG4gICAgY29uc3QgaGVhZGVyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImhlYWRlclwiKTtcbiAgICBjb25zdCBsb2dvID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImRpdlwiKTtcbiAgICBcbiAgICAvLyBDcmVhdGUgYW4gaW1hZ2UgZWxlbWVudCB1c2luZyBkb2N1bWVudC5jcmVhdGVFbGVtZW50XG4gICAgY29uc3QgaW1hZ2UgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiaW1nXCIpO1xuXG4gICAgLy8gU2V0IHRoZSBzcmMgYXR0cmlidXRlIG9mIHRoZSBpbWFnZVxuICAgIGltYWdlLnNyYyA9IGxvZ29pbWFnZTtcblxuICAgIGNvbnN0IGNvbXBhbnlOYW1lID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcInBcIik7XG5cbiAgICBsb2dvLmNsYXNzTGlzdC5hZGQoXCJsb2dvXCIpO1xuICAgIGNvbXBhbnlOYW1lLnRleHRDb250ZW50ID0gXCJPZGluJ3MgUGl6emEgUGxhY2VcIjtcbiAgICBoZWFkZXIuYXBwZW5kQ2hpbGQobG9nbyk7XG4gICAgbG9nby5hcHBlbmRDaGlsZChpbWFnZSk7XG4gICAgbG9nby5hcHBlbmRDaGlsZChjb21wYW55TmFtZSk7XG4gICAgcmV0dXJuIGhlYWRlcjtcbn1cblxuZXhwb3J0IGRlZmF1bHQgYnVpbGRIZWFkZXI7XG5cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/header.js\n");
 
 /***/ }),
 
@@ -216,7 +216,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "fonts/Norse44dc36ed56551aa5910e.woff";
+module.exports = __webpack_require__.p + "44dc36ed56551aa5910e.woff";
 
 /***/ }),
 
@@ -226,7 +226,7 @@ module.exports = __webpack_require__.p + "fonts/Norse44dc36ed56551aa5910e.woff";
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "fonts/Norsebolddb2f4e6c6ed5909d200f.woff";
+module.exports = __webpack_require__.p + "db2f4e6c6ed5909d200f.woff";
 
 /***/ }),
 
@@ -236,7 +236,7 @@ module.exports = __webpack_require__.p + "fonts/Norsebolddb2f4e6c6ed5909d200f.wo
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/shieldlogo45385af3c423708c5621.png";
+module.exports = __webpack_require__.p + "45385af3c423708c5621.png";
 
 /***/ })
 
