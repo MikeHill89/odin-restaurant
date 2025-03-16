@@ -1,8 +1,8 @@
-import { handleHomeClick } from "../pages/home.js";
-import { handleMenuClick } from "../pages/menu.js";
-import { handleContactClick } from "../pages/contact.js";
+import handleHomeClick from "../pages/home.js";
+import handleMenuClick from "../pages/menu.js";
+import handleContactClick from "../pages/contact.js";
 
-function buildNav() {
+export default function buildNav() {
     const nav = document.createElement("nav");
     const ul = document.createElement("ul");
     const liHome = document.createElement("li");
@@ -25,5 +25,4 @@ function buildNav() {
     return nav;
 }
 
-export default buildNav;
 

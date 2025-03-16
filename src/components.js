@@ -2,9 +2,10 @@ import buildHeader from "./components/header.js";
 import buildNav from "./components/nav.js";
 import buildMain from "./components/pagecontent.js";
 import buildFooter from "./components/footer.js";
-import { handleHomeClick } from "./pages/home.js";
+import handleHomeClick from "./pages/home.js";
+import css from "./style.css";
 
-function buildInitialSite(){
+export default function buildInitialSite() {
     const wrapper = document.querySelector(".wrapper");
     wrapper.appendChild(buildHeader());
     wrapper.appendChild(buildNav());
@@ -13,4 +14,3 @@ function buildInitialSite(){
     handleHomeClick();
 }
 
-export default buildInitialSite;

@@ -1,4 +1,4 @@
-export function handleHomeClick() {
+export default function handleHomeClick() {
     const main = document.querySelector("main");
     const section = document.createElement("section");
     main.innerHTML = "";

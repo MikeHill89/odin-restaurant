@@ -1,9 +1,9 @@
 import logoimage from '../assets/images/shieldlogo.png';
 
-function buildHeader() {
+export default function buildHeader() {
     const header = document.createElement("header");
     const logo = document.createElement("div");
-    
+
     // Create an image element using document.createElement
     const image = document.createElement("img");
 
@@ -20,5 +20,4 @@ function buildHeader() {
     return header;
 }
 
-export default buildHeader;
 

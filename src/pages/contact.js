@@ -1,4 +1,4 @@
-export function handleContactClick() {
+export default function handleContactClick() {
     const main = document.querySelector("main");
     const section = document.createElement("section");
     main.innerHTML = "";

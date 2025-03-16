@@ -1,5 +1,4 @@
-import css from "./style.css";
-import buildInitialSite from "./components.js";
+import buildPage from "./components.js";
 
 console.log("Hello World!");
-buildInitialSite();
+buildPage()

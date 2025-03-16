@@ -1,4 +1,4 @@
-export function handleMenuClick() {
+export default function handleMenuClick() {
     const main = document.querySelector("main");
     const section = document.createElement("section");
     main.innerHTML = "";
