@@ -3,6 +3,7 @@ export default function handleContactClick() {
     const section = document.createElement("section");
     main.innerHTML = "";
     section.innerHTML = `
+        <article>
         <h1>Contact Odin's Pizza</h1>
         <p>Have a question, comment, or craving for godly pizza? Reach out to us!</p>
         <address>
@@ -15,6 +16,7 @@ export default function handleContactClick() {
         <p><strong>Email Us:</strong> info@odinspizza.com</p>
         <p>For divine pizza emergencies, contact our Pizza Valkyries at emergency@odinspizza.com</p>
         <p>We look forward to serving you a slice of the gods!</p>
+        </article>
     `;
     main.appendChild(section);
 }
