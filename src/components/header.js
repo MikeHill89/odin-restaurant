@@ -1,4 +1,4 @@
-import logoimage from '../assets/images/shieldlogo.png';
+import logo from '../assets/images/shieldlogo.png';
 
 export default function buildHeader() {
     const header = document.createElement("header");
@@ -8,7 +8,7 @@ export default function buildHeader() {
     const image = document.createElement("img");
 
     // Set the src attribute of the image
-    image.src = logoimage;
+    image.src = logo;
 
     const companyName = document.createElement("p");
 
